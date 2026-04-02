@@ -181,18 +181,3 @@ npm run test         # unit tests
 ```
 
 ---
-
-## Assessment Coverage
-
-| Question | Topic | File |
-|----------|-------|------|
-| Q1 | Multi-tenant middleware | `common/middleware/tenant.middleware.ts` |
-| Q2 | Response interceptor + error filter | `common/interceptors/` + `common/filters/` |
-| Q3 | TypeORM entities with enums & cascade | `employees/entities/` |
-| Q4 | QueryBuilder — dept counts, leave overlap, top earners | `employees.service.ts` |
-| Q5 | Paginated endpoint with search/filter/sort | `employees.controller.ts` + `employees.service.ts` |
-| Q6 | Pipes explanation | README / PDF |
-| Q7 | Database indexes explanation | README / PDF |
-| Q8 | JavaScript array functions | README / PDF |
-| Q9 | TypeORM relations | README / PDF |
-| Q10 | NestJS decorators | `employees.controller.ts` |
